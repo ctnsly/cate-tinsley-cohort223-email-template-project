@@ -1,0 +1,23 @@
+@media (min-width: 767px) {
+    .navbar-toggler{
+        display: none;
+    }
+}
+
+
+.modal-header h4.modal-title {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+}
+
+.btn .btn-secondary .btn-lg{
+    color: brown;
+}
+
+/* not working */
+.row .col-2 .d-xs-none{
+    display: block!important;
+}
+
+
+
