@@ -1,22 +1,31 @@
+/* left side styles */
+
+
+button.btn.btn-secondary.btn-lg {
+    margin-bottom: 15px;
+    background-color: black;
+}
+
+.user-name{
+    font-size: 16px;
+}
+
+/* right side styles */
+.col-sm-10 {
+    padding: 0px;
+}
+
+
+/* Small Device */
+/* hiding left side when viewing xs device */
+.col-xm-2.col-sm-2.d-none.d-sm-block {
+    display: block;
+}
+
 @media (min-width: 767px) {
     .navbar-toggler{
         display: none;
     }
-}
-
-
-.modal-header h4.modal-title {
-    font-family: "Open Sans",sans-serif;
-    font-weight: 300;
-}
-
-.btn .btn-secondary .btn-lg{
-    color: brown;
-}
-
-/* not working */
-.row .col-2 .d-xs-none{
-    display: block!important;
 }
 
 
