@@ -1,13 +1,25 @@
 /* left side styles */
-
+.col-xs-2.col-sm-2.d-none.d-sm-block.px-0 {
+    background-color: #212529;
+    color: whitesmoke;
+}
 
 button.btn.btn-secondary.btn-lg {
     margin-bottom: 15px;
-    background-color: black;
+    background-color: whitesmoke;
+    color: #212529;
+}
+
+.list-group {
+    background-color: #212529;
 }
 
 .user-name{
     font-size: 16px;
+}
+
+table.table.table-dark.table-hover {
+    margin-bottom: 0px;
 }
 
 /* right side styles */
@@ -15,10 +27,23 @@ button.btn.btn-secondary.btn-lg {
     padding: 0px;
 }
 
+/* bypassing background and text color */
+.container-fluid.inbox-tab {
+    background-color: #212529;
+    color: whitesmoke;
+    margin: 0px;
+    border-top: 2px solid #2c3034;
+    border-bottom: 2px solid #2c3034;
+    
+}
+
+button.btn.dropdown-toggle {
+    color: whitesmoke;
+}
 
 /* Small Device */
-/* hiding left side when viewing xs device */
-.col-xm-2.col-sm-2.d-none.d-sm-block {
+/* hiding left side when viewing on an xs device */
+.col-xs-2.col-sm-2.d-none.d-sm-block {
     display: block;
 }
 
